@@ -1,0 +1,45 @@
+@import "../scss/bootstrap/_variables.scss";
+
+.b-color-container{background-color: $light-green;color: white;}
+.b-logo__title{background-color: $dark-green;color: white;}
+.b-logo__title:hover{background-color: $medium-green;} 
+.b-social-list__link, .b-services__icon{background-color: $dark-green;}
+.b-social-list__link:hover{background-color: $medium-green;}
+.b-services__item:hover{.b-services__icon{background-color: $medium-green;}}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {   
+  border-color: $medium-green;
+}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {   
+  border-color: $emerland;
+}   
+.b-newsletter__submit{background-color: $dark-green !important;border-color: $dark-green !important; color: white;}
+.b-newsletter__submit, .b-contact-form__submit, .b-services__contact-link, .b-pricing-table__button{background-color: $dark-green !important;border-color: $dark-green !important;color: white;}
+.b-newsletter__submit:hover, 
+.b-newsletter__submit:active, 
+.b-contact-form__submit:hover,  
+.b-contact-form__submit:active, 
+.b-services__contact-link:hover,  
+.b-services__contact-link:active,
+.b-pricing-table__button:hover,  
+.b-pricing-table__button:active{
+  background-color: $medium-green !important;
+  border-color: $medium-green !important;
+} 
+.carousel-control{background-color: $dark-green;}
+.carousel-control:hover{background-color: $medium-green;}
+.b-about{background-color: $light-green; color: white;}
+.b-about__position{background-color: $dark-green;}
+.b-pricing-table__item--active{
+  .b-pricing-table__header{
+    background-color: $light-green;
+  }
+}
+.b-testimonials, .b-pricing-table__item, .b-contacts--footer{background-color: $old-green;}
+.b-services, .b-pricing-table, .b-contact-us{background-color: white;}
+.b-footer{color: white;background-color: $dark-green;}
+.b-footer--landing{color: white;background-color: $light-green;}
+.tweet_time a, .tweet_user, .tweet_user:hover{color:$white;}
+.b-footer--pic, .b-footer--map{
+	.b-footer__copyright, .tweet_text, .tweet_time a{color:$blackText;}
+	.tweet_user, .tweet_user:hover{color:$light-green;}
+}

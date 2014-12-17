@@ -1,0 +1,39 @@
+@import "../scss/bootstrap/_variables.scss";
+
+.b-color-container{background-color: $metro-blue;color: white;}
+.b-logo__title{background-color: $capitan-cool;color: white;}
+.b-logo__title:hover{background-color: $lowlight-blue;} 
+.b-social-list__link,.b-services__icon{background-color: $capitan-cool;}
+.b-social-list__link:hover{background-color: $lowlight-blue;}
+.b-services__item:hover{.b-services__icon{background-color: $lowlight-blue;}}
+textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input{border-color: $peter-river;}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {   
+  border-color: $lowlight-blue;
+}   
+.b-newsletter__submit, .b-contact-form__submit, .b-services__contact-link, .b-pricing-table__button{
+  background-color: $capitan-cool !important;
+  border-color: $capitan-cool !important;
+  color: white;
+}
+.b-newsletter__submit:hover, 
+.b-newsletter__submit:active, 
+.b-contact-form__submit:hover,  
+.b-contact-form__submit:active, 
+.b-services__contact-link:hover, 
+.b-pricing-table__button:hover, 
+.b-pricing-table__button:active{background-color: $lowlight-blue !important;border-color: $lowlight-blue !important;} 
+.carousel-control{background-color: $capitan-cool;}
+.carousel-control:hover{background-color: $lowlight-blue;}
+.b-about{background-color: $metro-blue; color: white;}
+.b-about__position{background-color:$capitan-cool;}
+.b-pricing-table__item--active{.b-pricing-table__header{background-color: $metro-blue;}}
+.b-testimonials, .b-pricing-table__item, .b-contacts--footer{background-color: $light-blue;}
+.b-testimonials__name--color, .b-contacts__text--color, .b-pricing-table__color-text{color: $metro-blue;}
+.b-services, .b-pricing-table, .b-contact-us{background-color: white;}
+.b-footer--landing{background-color: $metro-blue; color: white;}
+.tweet_time a{color:$blackText;}
+.tweet_user, .tweet_user:hover{color:$lowlight-blue;}
+.b-footer--pic{
+	.tweet_time a{color:$blackText;}
+	.tweet_user, .tweet_user:hover{color:$lowlight-blue;}
+}	

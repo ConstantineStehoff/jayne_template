@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+
+    <title>Jayne documentation</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="container">
+      
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>JAYNE</h1>
+        <p>Coming Soon and Landing Page Site Template</p>
+      </div>
+      
+      <nav class="b-navbar">
+        <div class="b-container-fixed">
+        
+          <div class="b-navbar__row">
+            <!-- Be sure to leave the brand out there if you want it shown -->
+            <a class="b-navbar__brand" href="index.html">JAYNE</a>
+
+            <ul class="b-navbar__list">
+              <li class="b-navbar__list-item b-navbar__list-item--active"><a class="b-navbar__list-link" href="#b-installation">Installation</a></li>
+              <li class="b-navbar__list-item"><a class="b-navbar__list-link" href="#b-styles">Customizing styles</a></li>
+              <li class="b-navbar__list-item"><a class="b-navbar__list-link" href="#b-fonts">Customizing fonts</a></li>
+              <li class="b-navbar__list-item"><a class="b-navbar__list-link" href="#b-images">Images</a></li>
+              <li class="b-navbar__list-item"><a class="b-navbar__list-link" href="#b-twitter">Twitter</a></li>
+              <li class="b-navbar__list-item"><a class="b-navbar__list-link" href="#b-contact-newsletter">Forms</a></li>
+              <li class="b-navbar__list-item"><a class="b-navbar__list-link" href="#b-map">Map</a></li>
+            </ul>
+          </div>
+        
+        </div>
+      </nav><!-- /.navbar -->
+
+      <div id="b-installation" class="b-installation">
+        <h2>Installation</h2>
+        <p>In order to install our template do the following:</p>
+        <ol>
+          <li>Unzip the jayne folder.</li>
+          <li>Pick the HTML template that you would like to use (You can remove the other ones).</li>
+          <li>Optionally you can remove unnessary files that you don't want to use. For example SCSS folder that is located in assets folder (if you don't plan to cusomize style of your template), files from the color-themes folder that is located in css folder (you can pick one skin that you want to use and remove the other ones).</li>
+          <li>Upload files through the FTP.</li>   
+        </ol>  
+      </div>  
+      
+      <div id="b-styles" class="b-styles">
+        <h2>Customizing styles</h2>
+        <p>The main stylesheet <span class="text-info">style.css</span> is located in the <span class="text-info">assets/css</span> folder.</p>
+        <p>In the <span class="text-info">assets/css/color-themes</span> folder there are 8 stylesheets for different color skins. By defaut each HTML template has the blue color skin (you can see it is included after the style.css stylesheet in the HTML template). In order to change the color skin for you template just change the name blue in the <code>&lt;link id="color-stylesheet" href="assets/css/color-themes/blue.css" rel="stylesheet"&gt;</code> to the name of a color skin that you want to use.</p> 
+      </div>  
+      
+      <div id="b-fonts" class="b-fonts">
+        <h2>Customizing fonts</h2>
+        <p>Stylesheet <span class="text-info">fonts.css</span> has the font faces for other fonts if you don't like the one that is used by default. In order to use them either include fonts.css in the HTML template before style.css stylesheet and change the font in <span class="text-info">scss/bootstrap/_variables.scss</span> or just copy the font face of the font you like from <span class="text-info">font.css</span> to <span class="text-info">style.css</span> stylesheet and change the font manually.</p>
+      </div> 
+      
+      <div id="b-images" class="b-images">
+        <h2>Images and logo</h2>
+        <p>All of the images are located in the assets/images folder. 
+          To change the logo either change the name (title) or delete <code>&lt;h1 class="b-logo__title">Jayne&lt;/h1&gt;</code> from the HTML template and upload an image <span class="text-info">logo.png</span> into the <span class="text-info">assets/images/logo</span> folder.
+          In order to change the background pictures for the light background slideshow replace the images in the <span class="text-info">assets/images/light</span> folder. To change the background pictures for the dark background slideshow replace the images in the <span class="text-info">assets/images/dark</span> folder. Static background images are <span class="text-info">assets/images/light/image1.png</span> for the light image and <span class="text-info">assets/images/dark/image1.png</span> for the dark image. In order to change the images for the slider replace the pictures in the <span class="text-info">assets/images/slider</span> folder. To change the picture of a product replace the image in the <span class="text-info">assets/images/product</span> folder.</p>
+      </div>
+
+      <div id="b-twitter" class="b-twitter">
+        <h2>Twitter widget</h2>
+        <p>To change the twitter account displayed in the twitter widged you need to:</p>
+        <ol>
+          <li>Create an official twitter widget by going to this <a href="https://twitter.com/login?redirect_after_login=%2Fsettings%2Fwidgets">link</a></li>
+          <li>Go to the end of the HTML template that you use and replace username "docothemes" to the username of your twitter account</li>
+          <li>go to the <span class="text-info">twitter/index.php</span> file and replace consumer key, consumer secret key, user token, user secret key with the keys you acquire by creating an official twitter widget</li>
+        </ol>  
+      </div>
+      
+      <div id="b-contact-newsletter" class="b-contact-newsletter">
+        <h2>Contact form and newsletter</h2>
+        <p>To receive the emails that user inputs in the newsletter form you would need to replace variable <code>$to = "email@gmail.com";</code> with your email address. Also, all of the emails received from users are recorded to <span class="text-info">text-files/emails.txt</span> file.</p>
+        <p>If you are using the landing page HTML template then in order to receive contact forms to your email address replace variables <code>$to = "email@gmail.com";</code> and <code>$from = "email@gmail.com";</code> with your email address.</p>
+      </div> 
+
+      <div id="b-map" class="b-map">
+        <h2>Map</h2>
+        <p>If you are using the HTML template that has map as a background you would need to:</p>
+        <ol>
+          <li>Go to the <span class="text-info">assets/js/big-map.js</span> file</li>
+          <li>Edit gm_address_latitude and gm_address_longitude variable to the latitude and longitude of you address (you can find them <a href="http://universimmedia.pagesperso-orange.fr/geo/loc.htm">here</a>)</li>
+          <li>You can change color of the map and the map marker by editing <span class="text-info">gm_landscape_color</span>, <span class="text-info">gm_water_color</span>, <span class="text-info">gm_circle_color</span> variables</li>
+          <li>Optionally you can change the location of the map marker by editing <span class="text-info">gm_offset_x</span> and <span class="text-info">gm_offset_y</span> variables</li>
+        </ol>
+        <p>If you plan to use the landing page HTML template you can edit the contact map by:</p>
+        <ol>
+          <li>Edit <span class="text-info">gm_address_latitude</span> and <span class="text-info">gm_address_longitude</span> variables to the latitude and longitude of you address (you can find them <a href="http://universimmedia.pagesperso-orange.fr/geo/loc.htm">here</a>)</li>
+          <li>Change the color of the map marker by editing <span class="text-info">gm_circle_color</span> variable.</li>
+        </ol>  
+      </div>
+      
+      <footer>
+        <p>&copy; Docothemes 2013</p>
+      </footer>  
+    </div> <!-- /container -->
+
+
+    <!-- JavaScript -->
+    <script src="assets/js/jquery-1.10.2.min.js"></script>
+    <script>
+      
+      /* Fixed menu on scrollTop with spacer */
+      var menu = $('.b-navbar'),
+          spacer = $('<div />', {
+            "class": "spacer",
+            "height": "288px"
+          }), 
+          $this = $(this);
+      if (menu.size()) {
+        $(window).on("scroll", function () {
+          if($this.scrollTop() > menu.offset().top && !menu.hasClass('g-fixed-menu-top')){
+            menu.addClass('g-fixed-menu-top');
+            //menu.before(spacer);
+          } else if($this.scrollTop() <= spacer.offset().top && menu.hasClass('g-fixed-menu-top')){
+              menu.removeClass('g-fixed-menu-top');
+              //spacer.remove();
+          }
+        });
+      } else {
+        //$('header div.spacer').remove();
+        menu.removeClass('g-fixed-menu-top');
+      }
+
+      /* Minimalistic scrollspy */
+
+      // Cache selectors
+      var lastId,
+          topMenu = $(".b-navbar__list"),
+          topMenuHeight = topMenu.outerHeight()+15,
+          // All list items
+          menuItems = topMenu.find("a"),
+          // Anchors corresponding to menu items
+          scrollItems = menuItems.map(function(){
+            var item = $($(this).attr("href"));
+            if (item.length) { return item; }
+          });
+
+      // Bind click handler to menu items
+      // so we can get a fancy scroll animation
+      menuItems.click(function(e){
+        var href = $(this).attr("href"),
+            offsetTop = href === "#" ? 0 : $(href).offset().top;
+        $('html, body').stop().animate({ 
+            scrollTop: offsetTop
+        }, 500);
+        e.preventDefault();
+      });
+
+      // Bind to scroll
+      $(window).scroll(function(){
+         // Get container scroll position
+         var fromTop = $(this).scrollTop()+topMenuHeight;
+         
+         // Get id of current scroll item
+         var cur = scrollItems.map(function(){
+           if ($(this).offset().top < fromTop)
+             return this;
+         });
+         // Get the id of the current element
+         cur = cur[cur.length-1];
+         var id = cur && cur.length ? cur[0].id : "";
+         
+         if (lastId !== id) {
+             lastId = id;
+             // Set/remove active class
+             menuItems
+               .parent().removeClass("b-navbar__list-item--active")
+               .end().filter("[href=#"+id+"]").parent().addClass("b-navbar__list-item--active");
+         }                   
+      });
+      
+    </script>
+  </body>
+</html>

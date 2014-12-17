@@ -1,0 +1,62 @@
+body {padding-top: 30px;padding-bottom: 30px; font-size: 16px;}
+.container{width:840px;}
+h1{color:rgb(230, 126, 34) !important;}
+h2{text-align: center; margin-bottom: 30px;}
+
+.jumbotron, .navbar{border-radius: 0;}
+.jumbotron{background-color: white;}
+.b-installation{padding-top: 90px;}
+.b-installation, .b-styles, .b-fonts, .b-images, .b-twitter, .b-contact-newsletter, .b-map{
+	margin-bottom: 200px;
+}	
+footer{margin-top: 30px;}
+
+/* Helper classes */
+.g-fixed-menu-top{position: fixed; top:0;}
+
+/* Navigation styles */
+.b-navbar{
+	width: 100%;
+	padding-top: 0;
+	padding-bottom: 0;
+	background-color: white;
+}
+.b-container-switcher{padding-left: 30px; padding-right: 30px;}
+.b-navbar__row{display:inline;float:left;width:840px;}	
+.b-navbar__brand{
+	font-size: 18px;
+	font-weight: bold;
+	color: rgb(230, 126, 34);
+	display: inline-block;
+	margin-left: 0;
+	padding-left: 0;
+	padding-top: 10.5px;
+}
+.b-navbar__brand-img{margin-top: 5px;}
+.b-navbar__list{margin-top: 5px;margin-bottom: 5px;}
+.b-navbar__list{display: inline-block; float: right;}
+.b-navbar__list-item{display: inline-block;}
+.b-navbar__list-item .b-navbar__list-link, .b-navbar__list-link:visited{color: #555;}
+.b-navbar__list-item--active .b-navbar__list-link{
+	background-color: transparent !important;
+	color: rgb(230, 126, 34);
+}
+.b-navbar__list-item--support .b-navbar__list-link, .b-navbar__list-item--support .b-navbar__list-link:hover{background-color: rgb(230, 126, 34) !important; color: white !important;}
+.b-navbar__list-link, .b-navbar__list-link:focus{
+	webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 8px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 16px;
+}
+.b-navbar__list-link:hover{text-decoration: none; color: rgb(230, 126, 34); background-color: white;}
+/* END Navigation styles */

@@ -1,0 +1,49 @@
+@import "../scss/bootstrap/_variables.scss";
+
+.b-color-container{background-color: $cream;}
+.b-logo__title{background-color: $carrot;}
+.b-logo__title:hover{background-color: $pink-eye;} 
+.b-social-list__link{background-color: $carrot;}
+.b-social-list__link:hover{background-color: $pink-eye;}
+.b-social-list--footer, .b-social-list--about{
+  .b-social-list__link, .b-services__icon{background-color: $sun-flower;}
+  .b-social-list__link:hover{background-color: $pink-eye;}
+}
+.b-services__icon{background-color: $carrot;}
+.b-services__item:hover{.b-services__icon{background-color: $pink-eye;}}  
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {   
+  border-color: $sun-flower;
+}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {   
+  border-color: $carrot;
+}   
+.b-newsletter__submit, .b-contact-form__submit, .b-services__contact-link, .b-pricing-table__button{background-color: $carrot !important;border-color: $carrot !important;}
+.b-newsletter__submit:hover,  
+.b-newsletter__submit:active, 
+.b-contact-form__submit:hover, 
+.b-contact-form__submit:active, 
+.b-services__contact-link:hover,  
+.b-services__contact-link:active,
+.b-pricing-table__button:hover,  
+.b-pricing-table__button:active{
+  background-color: $pink-eye !important;
+  border-color: $pink-eye !important;
+} 
+.b-pricing-table__item--active{.b-pricing-table__header{background-color: $carrot;}}
+.carousel-control{background-color: $carrot;}
+.carousel-control:hover{background-color: $sun-flower;}
+.b-services{background-color: $sun-flower;}
+.b-about__position{background-color: $sun-flower;}
+.b-testimonials, .b-pricing-table__item, .b-contacts--footer{background-color: $sun-flower;}
+.b-testimonials__text{color: $gray;}
+.b-testimonials__name--color, .b-contacts__text--color, .b-pricing-table__color-text{color: $carrot;}
+.b-contact-us, .b-pricing-table{background-color: $cream;}
+.b-footer{background-color: $sun-flower;}
+.b-about, .b-footer--landing{color: white;background-color: $carrot;}
+.countdown_amount{color: $carrot;}
+.tweet_time a{color:$blackText;}
+.tweet_user, .tweet_user:hover{color:$carrot;}
+.b-footer--pic, .b-footer--map{
+	.tweet_time a{color:$blackText;}
+	.tweet_user, .tweet_user:hover{color:$carrot;}
+}	

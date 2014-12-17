@@ -1,0 +1,61 @@
+@import "../scss/bootstrap/_variables.scss";
+
+.b-color-container{background-color: white;color: $blackText;}
+.b-logo__title{background-color: $metro-blue;color: white;}
+.b-logo__title:hover{background-color: $capitan-cool;} 
+.b-social-list__link{background-color: $metro-blue;}
+.b-social-list__link:hover{background-color: $capitan-cool;}
+.b-social-list__item{background-color: $metro-blue;}
+.b-services__icon{background-color: $capitan-cool;}
+.b-social-list__item:hover{background-color: $capitan-cool;}
+.b-social-list--footer{.b-social-list__link{background-color: $capitan-cool;}.b-social-list__link:hover{background-color: $lowlight-blue;}} 
+.b-social-list--about{.b-social-list__link{background-color: $medium-blue;}.b-social-list__link:hover{background-color: $peter-river;}}
+.b-services__item:hover{.b-services__icon{background-color: $lowlight-blue;}}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {   
+  border-color: $metro-blue;
+}   
+.b-newsletter__submit, .b-contact-form__submit{
+  background-color: $metro-blue !important;
+  border-color: $metro-blue !important;
+}
+.b-services__contact-link{
+  background-color: $capitan-cool !important;
+  border-color: $capitan-cool !important;
+}
+.b-newsletter__submit:hover,  
+.b-newsletter__submit:active, 
+.b-contact-form__submit:hover, 
+.b-contact-form__submit:active{
+  background-color: $capitan-cool !important;
+  border-color: $capitan-cool !important;
+}
+.b-services__contact-link:hover,  
+.b-services__contact-link:active{
+  background-color: $lowlight-blue !important;
+  border-color: $lowlight-blue !important;
+}  
+.carousel-control{background-color: $metro-blue;}
+.carousel-control:hover{background-color: $capitan-cool;}
+.b-services{background-color: $metro-blue; color: white;}
+.b-about{background-color: $light-blue;}
+.b-about__position{background-color: $medium-blue; color: white;}
+.b-testimonials{background-color: $metro-blue; color: white;}
+.b-testimonials__text{color: $lowlight-blue;}
+.b-testimonials__name--color{color: $lowlight-blue;}
+.b-pricing-table__item, .b-contacts--footer{background-color: $light-blue;}
+.b-pricing-table__item--active{
+  .b-pricing-table__header{
+    background-color: $dark-blue;
+  }
+}
+.b-contacts__text--color, .b-pricing-table__color-text{color: $dark-blue;}
+.b-pricing-table__button{background-color: $medium-blue; border-color: $medium-blue;}
+.b-pricing-table__button:hover{background-color: $peter-river; border-color: $peter-river;}
+.b-pricing-table, .b-contact-us{background-color: white;}
+footer{color: white;background-color: $metro-blue;}
+.countdown_amount{color: $metro-blue;}
+.tweet_time a, .tweet_user, .tweet_user:hover{color: $white;}
+.b-footer--pic, .b-footer--map{
+  .tweet_time a{color:$blackText;}
+  .tweet_user, .tweet_user:hover{color:$metro-blue;}
+}  

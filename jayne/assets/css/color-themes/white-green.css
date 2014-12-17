@@ -1,0 +1,104 @@
+/* Base grid unit */
+.b-color-container {
+  background-color: white;
+  color: #444444; }
+
+.b-logo__title {
+  background-color: #2ecc71;
+  color: white; }
+
+.b-logo__title:hover {
+  background-color: #f89406; }
+
+.b-social-list__link {
+  background-color: #2ecc71; }
+
+.b-social-list__link:hover {
+  background-color: #f89406; }
+
+.b-services__icon {
+  background-color: #27ae60; }
+
+.b-social-list--about .b-social-list__link, .b-social-list--footer .b-social-list__link {
+  background-color: #27ae60; }
+.b-social-list--about .b-social-list__link:hover, .b-social-list--footer .b-social-list__link:hover {
+  background-color: #007550; }
+
+.b-services__item:hover .b-services__icon {
+  background-color: #007550; }
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+  border-color: #2ecc71; }
+
+.b-newsletter__submit, .b-contact-form__submit {
+  background-color: #2ecc71 !important;
+  border-color: #2ecc71 !important; }
+
+.b-services__contact-link, .b-pricing-table__button {
+  background-color: #27ae60 !important;
+  border-color: #27ae60 !important; }
+
+.b-newsletter__submit:hover,
+.b-newsletter__submit:active,
+.b-contact-form__submit:hover,
+.b-contact-form__submit:active {
+  background-color: #f89406 !important;
+  border-color: #f89406 !important; }
+
+.b-services__contact-link:hover,
+.b-services__contact-link:active,
+.b-pricing-table__button:hover,
+.b-pricing-table__button:active {
+  background-color: #007550 !important;
+  border-color: #007550 !important; }
+
+.carousel-control {
+  background-color: #2ecc71; }
+
+.carousel-control:hover {
+  background-color: #f89406; }
+
+.b-services {
+  background-color: #2ecc71;
+  color: white; }
+
+.b-about {
+  background-color: #b6d8c0; }
+
+.b-about__position {
+  background-color: #27ae60;
+  color: white; }
+
+.b-testimonials {
+  background-color: #2ecc71;
+  color: white; }
+
+.b-testimonials__text, .b-testimonials__name--color {
+  color: #007550; }
+
+.b-pricing-table__item, .b-contacts--footer {
+  background-color: #b6d8c0; }
+
+.b-pricing-table__item--active .b-pricing-table__header {
+  background-color: #27ae60; }
+
+.b-pricing-table__color-text, .b-contacts__text--color {
+  color: #27ae60; }
+
+.b-pricing-table, .b-contact-us {
+  background-color: white; }
+
+footer {
+  color: white;
+  background-color: #2ecc71; }
+
+.countdown_amount {
+  color: #2ecc71; }
+
+.tweet_time a, .tweet_user, .tweet_user:hover {
+  color: white; }
+
+.b-footer--pic .tweet_time a, .b-footer--map .tweet_time a {
+  color: #444444; }
+.b-footer--pic .tweet_user, .b-footer--pic .tweet_user:hover, .b-footer--map .tweet_user, .b-footer--map .tweet_user:hover {
+  color: #2ecc71; }

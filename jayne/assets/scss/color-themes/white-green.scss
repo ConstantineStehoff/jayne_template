@@ -1,0 +1,58 @@
+@import "../scss/bootstrap/_variables.scss";
+
+.b-color-container{background-color: white;color: $blackText;}
+.b-logo__title{background-color: $emerland;color: white;}
+.b-logo__title:hover{background-color: $orange;} 
+.b-social-list__link{background-color: $emerland;}
+.b-social-list__link:hover{background-color: $orange;}
+.b-services__icon{background-color: $nephritis;}
+.b-social-list--about, .b-social-list--footer{
+  .b-social-list__link{background-color: $nephritis;}
+  .b-social-list__link:hover{background-color: $dark-green;}
+}
+.b-services__item:hover{.b-services__icon{background-color: $dark-green;}}  
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {   
+  border-color: $emerland;
+}   
+
+.b-newsletter__submit, .b-contact-form__submit{
+  background-color: $emerland !important;
+  border-color: $emerland !important;
+}
+.b-services__contact-link, .b-pricing-table__button{background-color: $nephritis !important;border-color: $nephritis !important;}
+.b-newsletter__submit:hover,  
+.b-newsletter__submit:active, 
+.b-contact-form__submit:hover,  
+.b-contact-form__submit:active{
+  background-color: $orange !important;
+  border-color: $orange !important;
+} 
+.b-services__contact-link:hover,  
+.b-services__contact-link:active,
+.b-pricing-table__button:hover,  
+.b-pricing-table__button:active{
+  background-color: $dark-green !important;
+  border-color: $dark-green !important;
+}
+.carousel-control{background-color: $emerland;}
+.carousel-control:hover{background-color: $orange;}
+.b-services{background-color: $emerland; color: white;}
+.b-about{background-color: $old-green;}
+.b-about__position{background-color: $nephritis; color: white;}
+.b-testimonials{background-color: $emerland; color: white;}
+.b-testimonials__text, .b-testimonials__name--color{color: $dark-green;}
+.b-pricing-table__item, .b-contacts--footer{background-color: $old-green;}
+.b-pricing-table__item--active{
+  .b-pricing-table__header{
+    background-color: $nephritis;
+  }
+}
+.b-pricing-table__color-text, .b-contacts__text--color{color: $nephritis;}
+.b-pricing-table, .b-contact-us{background-color: white;}
+footer{color: white; background-color: $emerland;}
+.countdown_amount{color: $emerland;}
+.tweet_time a, .tweet_user, .tweet_user:hover{color: $white;}
+.b-footer--pic, .b-footer--map{
+  .tweet_time a{color:$blackText;}
+  .tweet_user, .tweet_user:hover{color:$emerland;}
+}  

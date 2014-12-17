@@ -1,0 +1,64 @@
+@import "../scss/bootstrap/_variables.scss";
+
+.b-color-container{background-color: white;color: $blackText;}
+.b-logo__title{background-color: $sun-flower;color: white;}
+.b-logo__title:hover{background-color: $orange;} 
+.b-social-list__link{background-color: $sun-flower;}
+.b-social-list__link:hover{background-color: $orange;}
+.b-social-list--footer{
+  .b-social-list__link{background-color: $orange;}
+  .b-social-list__link:hover{background-color: $carrot;}
+}
+.b-services__icon{background-color: $orange;}
+.b-services__item:hover{.b-services__icon{background-color: $carrot;}}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {   
+  border-color: $sun-flower;
+}
+.b-contact-form__input, .b-contact-form__textarea{border-color: $sun-flower !important;}
+.b-contact-form__input:focus, .b-contact-form__textarea:focus{border-color: $orange !important;}   
+.b-newsletter__submit, .b-contact-form__submit{background-color: $sun-flower !important;border-color: $sun-flower !important;}
+.b-services__contact-link{
+  background-color: $orange !important;
+  border-color: $orange !important;
+}
+.b-pricing-table__button{
+  background-color: $sun-flower !important;
+  border-color: $sun-flower !important;
+} 
+.b-services__contact-link:hover,  
+.b-services__contact-link:active,
+.b-pricing-table__button:hover, 
+.b-pricing-table__button:active{
+  background-color: $carrot !important;
+  border-color: $carrot !important;
+}
+.b-newsletter__submit:hover,  
+.b-newsletter__submit:active, 
+.b-contact-form__submit:hover,  
+.b-contact-form__submit:active{
+  background-color: $orange !important;
+  border-color: $orange !important;
+} 
+.b-about{background-color: $cream;}
+.b-about__position{background-color:$sun-flower;color:white;}
+.b-testimonials__name--color, .b-pricing-table__color-text, .b-contacts__text--color{color: $orange;}
+.b-testimonials, .b-services{background-color: $sun-flower;}
+.b-testimonials__text{color: $trance;}
+.b-pricing-table__item, .b-contacts--footer{background-color: $cream;}
+.b-pricing-table__item--active{
+  .b-pricing-table__header{
+    background-color: $sun-flower;
+  }
+}
+.b-pricing-table, .b-contact-us{background-color: white;}
+footer{background-color: $sun-flower;}
+.carousel-control{background-color: $sun-flower;}
+.carousel-control:hover{background-color: $orange;}
+.countdown_amount{
+  color: $sun-flower; 
+}
+.tweet_time a, .tweet_user, .tweet_user:hover{color: $blackText;}
+.b-footer--pic, .b-footer--map{
+  .tweet_time a{color:$blackText;}
+  .tweet_user, .tweet_user:hover{color:$sun-flower;}
+}  

@@ -1,0 +1,95 @@
+/* Base grid unit */
+.b-color-container {
+  background-color: #feea77; }
+
+.b-logo__title {
+  background-color: #e67e22; }
+
+.b-logo__title:hover {
+  background-color: #a82743; }
+
+.b-social-list__link {
+  background-color: #e67e22; }
+
+.b-social-list__link:hover {
+  background-color: #a82743; }
+
+.b-social-list--footer .b-social-list__link, .b-social-list--footer .b-services__icon, .b-social-list--about .b-social-list__link, .b-social-list--about .b-services__icon {
+  background-color: #f1c40f; }
+.b-social-list--footer .b-social-list__link:hover, .b-social-list--about .b-social-list__link:hover {
+  background-color: #a82743; }
+
+.b-services__icon {
+  background-color: #e67e22; }
+
+.b-services__item:hover .b-services__icon {
+  background-color: #a82743; }
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+  border-color: #f1c40f; }
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+  border-color: #e67e22; }
+
+.b-newsletter__submit, .b-contact-form__submit, .b-services__contact-link, .b-pricing-table__button {
+  background-color: #e67e22 !important;
+  border-color: #e67e22 !important; }
+
+.b-newsletter__submit:hover,
+.b-newsletter__submit:active,
+.b-contact-form__submit:hover,
+.b-contact-form__submit:active,
+.b-services__contact-link:hover,
+.b-services__contact-link:active,
+.b-pricing-table__button:hover,
+.b-pricing-table__button:active {
+  background-color: #a82743 !important;
+  border-color: #a82743 !important; }
+
+.b-pricing-table__item--active .b-pricing-table__header {
+  background-color: #e67e22; }
+
+.carousel-control {
+  background-color: #e67e22; }
+
+.carousel-control:hover {
+  background-color: #f1c40f; }
+
+.b-services {
+  background-color: #f1c40f; }
+
+.b-about__position {
+  background-color: #f1c40f; }
+
+.b-testimonials, .b-pricing-table__item, .b-contacts--footer {
+  background-color: #f1c40f; }
+
+.b-testimonials__text {
+  color: #555555; }
+
+.b-testimonials__name--color, .b-contacts__text--color, .b-pricing-table__color-text {
+  color: #e67e22; }
+
+.b-contact-us, .b-pricing-table {
+  background-color: #feea77; }
+
+.b-footer {
+  background-color: #f1c40f; }
+
+.b-about, .b-footer--landing {
+  color: white;
+  background-color: #e67e22; }
+
+.countdown_amount {
+  color: #e67e22; }
+
+.tweet_time a {
+  color: #444444; }
+
+.tweet_user, .tweet_user:hover {
+  color: #e67e22; }
+
+.b-footer--pic .tweet_time a, .b-footer--map .tweet_time a {
+  color: #444444; }
+.b-footer--pic .tweet_user, .b-footer--pic .tweet_user:hover, .b-footer--map .tweet_user, .b-footer--map .tweet_user:hover {
+  color: #e67e22; }

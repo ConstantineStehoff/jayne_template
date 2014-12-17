@@ -1,0 +1,62 @@
+@import "../scss/bootstrap/_variables.scss";
+
+.b-color-container{background-color: white;color: $blackText;}
+.b-logo__title{background-color: $pomegranate;color: white;}
+.b-logo__title:hover{background-color: $alizarin;} 
+.b-social-list__link{background-color: $pomegranate;}
+.b-social-list__link:hover{background-color: $alizarin;}
+.b-social-list--about{
+  .b-social-list__link{background-color: $pomegranate;}
+  .b-social-list__link:hover{background-color: $alizarin;}
+}
+.b-social-list--footer{
+  .b-social-list__link{background-color: $bloodworth;}
+  .b-social-list__link:hover{background-color: $alizarin;}
+}
+.b-services__icon{background-color: $bloodworth;}
+.b-services__item:hover{.b-services__icon{background-color: $alizarin;}}  
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {   
+  border-color: $pomegranate;
+}   
+
+.b-newsletter__submit, .b-contact-form__submit, .b-pricing-table__button{
+  background-color: $pomegranate !important;
+  border-color: $pomegranate !important;
+}
+.b-services__contact-link{
+  background-color: $bloodworth !important;
+  border-color: $bloodworth !important;
+}
+.b-services__contact-link:hover,  
+.b-services__contact-link:active, 
+.b-contact-form__submit:hover, 
+.b-contact-form__submit:active, 
+.b-newsletter__submit:hover, 
+.b-newsletter__submit:active,
+.b-pricing-table__button:hover, 
+.b-pricing-table__button:active{
+  background-color: $alizarin !important;
+  border-color: $alizarin !important;
+}
+.carousel-control{background-color: $pomegranate;}
+.carousel-control:hover{background-color: $alizarin;}
+.b-services{background-color: $pomegranate; color: white;}
+.b-about{background-color: $dustWind;}
+.b-about__position{background-color:$pomegranate; color: white;}
+.b-testimonials{background-color: $pomegranate; color: white;}
+.b-testimonials__text{color: white;}
+.b-pricing-table__item, .b-contacts--footer{background-color: $dustWind;}
+.b-pricing-table__item--active{
+  .b-pricing-table__header{
+    background-color: $pomegranate;
+  }
+}
+.b-pricing-table__color-text, .b-contacts__text--color{color: $pomegranate;}
+.b-pricing-table, .b-contact-us{background-color: white;}
+footer{color: white;background-color: $pomegranate;}
+.countdown_amount{color: $pomegranate;}
+.tweet_time a, .tweet_user, .tweet_user:hover{color: $white;}
+.b-footer--pic, .b-footer--map{
+  .tweet_time a{color:$blackText;}
+  .tweet_user, .tweet_user:hover{color:$pomegranate;}
+}  
